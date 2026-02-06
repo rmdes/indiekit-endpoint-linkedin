@@ -75,10 +75,13 @@ export default class LinkedInEndpoint {
         updatedAt,
         expiresAt,
         authHref: `${endpoint.mountPath}/auth`,
-        success: request.query.success === "true",
-        errorMessage: request.query.error
+        success:
+          request.query.success === "true"
+            ? "Successfully connected to LinkedIn. Your access token has been saved."
+            : undefined,
+        error: request.query.error
           ? decodeURIComponent(request.query.error)
-          : null,
+          : undefined,
       });
     });
 

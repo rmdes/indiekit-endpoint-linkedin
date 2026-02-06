@@ -1,19 +1,6 @@
 {% extends "document.njk" %}
 
 {% block content %}
-<h2>LinkedIn Connection</h2>
-
-{% if success %}
-<div class="notification">
-  <p>Successfully connected to LinkedIn. Your access token has been saved.</p>
-</div>
-{% endif %}
-
-{% if errorMessage %}
-<div class="notification notification--error">
-  <p>{{ errorMessage }}</p>
-</div>
-{% endif %}
 
 {% if connected %}
 <p>Status: <strong>Connected</strong></p>
