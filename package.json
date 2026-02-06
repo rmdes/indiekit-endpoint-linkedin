@@ -1,0 +1,50 @@
+{
+  "name": "@rmdes/indiekit-endpoint-linkedin",
+  "version": "1.0.0",
+  "description": "LinkedIn OAuth 2.0 endpoint for Indiekit — handles token acquisition through the UI",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "keywords": [
+    "indiekit",
+    "indiekit-plugin",
+    "indieweb",
+    "linkedin",
+    "oauth"
+  ],
+  "author": "rmdes",
+  "contributors": [
+    {
+      "name": "Giacomo Debidda",
+      "url": "https://giacomodebidda.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmdes/indiekit-endpoint-linkedin"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "assets",
+    "lib",
+    "views",
+    "index.js"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-oauth2": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@indiekit/error": "^1.0.0-beta.25",
+    "@indiekit/indiekit": "1.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@indiekit/error": "^1.0.0-beta.25"
+  }
+}

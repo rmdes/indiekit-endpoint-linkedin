@@ -1,0 +1,42 @@
+{% extends "document.njk" %}
+
+{% block content %}
+<h2>LinkedIn Connection</h2>
+
+{% if success %}
+<div class="notification">
+  <p>Successfully connected to LinkedIn. Your access token has been saved.</p>
+</div>
+{% endif %}
+
+{% if errorMessage %}
+<div class="notification notification--error">
+  <p>{{ errorMessage }}</p>
+</div>
+{% endif %}
+
+{% if connected %}
+<p>Status: <strong>Connected</strong></p>
+{% if updatedAt %}
+<p>Token last updated: {{ updatedAt }}</p>
+{% endif %}
+{% if expiresAt %}
+<p>Token expires: {{ expiresAt }}</p>
+{% endif %}
+<p>You can reconnect at any time to refresh your access token.</p>
+{% else %}
+<p>Status: <strong>Not connected</strong></p>
+<p>Authorize Indiekit to post on LinkedIn on your behalf. This requires a LinkedIn app with the following OAuth scopes: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.</p>
+{% endif %}
+
+<p>
+  <a href="{{ authHref }}" class="button">{{ "Reconnect to LinkedIn" if connected else "Connect to LinkedIn" }}</a>
+</p>
+
+<h3>Useful links</h3>
+<ul>
+  <li><a href="https://www.linkedin.com/developers/apps">LinkedIn Developer Apps</a></li>
+  <li><a href="https://www.linkedin.com/developers/tools/oauth">LinkedIn OAuth 2.0 Tools</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api">LinkedIn Posts API</a></li>
+</ul>
+{% endblock %}
