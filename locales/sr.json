@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "Статус",
+    "connected": "Повезано",
+    "notConnected": "Није повезано",
+    "tokenLastUpdated": "Токен последњи пут ажуриран",
+    "tokenExpires": "Токен истиче",
+    "reconnectAnytime": "Можете се поново повезати у било ком тренутку да бисте освежили свој токен за приступ.",
+    "authorizePrompt": "Овластите Indiekit да објављује на LinkedIn у ваше име. Ово захтева LinkedIn апликацију са следећим OAuth опсезима: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.",
+    "connectButton": "Повежи се са LinkedIn",
+    "reconnectButton": "Поново повежи се са LinkedIn",
+    "usefulLinks": "Корисне везе",
+    "developerApps": "LinkedIn апликације за програмере",
+    "oauthTools": "LinkedIn OAuth 2.0 алати",
+    "postsApi": "LinkedIn API за објаве",
+    "successMessage": "Успешно повезано са LinkedIn. Ваш токен за приступ је сачуван.",
+    "errorCredentialsNotConfigured": "LinkedIn OAuth акредитиви нису конфигурисани. Поставите LINKEDIN_CLIENT_ID и LINKEDIN_CLIENT_SECRET.",
+    "errorStateMismatch": "Овлашћење није успело: неусаглашеност стања. Молимо покушајте поново.",
+    "errorAuthorizationFailed": "LinkedIn овлашћење није успело",
+    "errorTokenFailed": "Није могуће добити токен за приступ"
+  }
+}

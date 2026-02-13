@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "状态",
+    "connected": "已连接",
+    "notConnected": "未连接",
+    "tokenLastUpdated": "令牌最后更新时间",
+    "tokenExpires": "令牌过期时间",
+    "reconnectAnytime": "您可以随时重新连接以刷新您的访问令牌。",
+    "authorizePrompt": "授权 Indiekit 代表您在 LinkedIn 上发布。这需要一个具有以下 OAuth 范围的 LinkedIn 应用程序:<code>openid</code>、<code>profile</code>、<code>w_member_social</code>。",
+    "connectButton": "连接到 LinkedIn",
+    "reconnectButton": "重新连接到 LinkedIn",
+    "usefulLinks": "有用的链接",
+    "developerApps": "LinkedIn 开发者应用",
+    "oauthTools": "LinkedIn OAuth 2.0 工具",
+    "postsApi": "LinkedIn 帖子 API",
+    "successMessage": "已成功连接到 LinkedIn。您的访问令牌已保存。",
+    "errorCredentialsNotConfigured": "LinkedIn OAuth 凭据未配置。请设置 LINKEDIN_CLIENT_ID 和 LINKEDIN_CLIENT_SECRET。",
+    "errorStateMismatch": "授权失败:状态不匹配。请重试。",
+    "errorAuthorizationFailed": "LinkedIn 授权失败",
+    "errorTokenFailed": "无法获取访问令牌"
+  }
+}

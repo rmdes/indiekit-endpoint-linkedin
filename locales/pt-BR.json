@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "Status",
+    "connected": "Conectado",
+    "notConnected": "Não conectado",
+    "tokenLastUpdated": "Token atualizado pela última vez",
+    "tokenExpires": "O token expira",
+    "reconnectAnytime": "Você pode reconectar a qualquer momento para atualizar seu token de acesso.",
+    "authorizePrompt": "Autorize o Indiekit a postar no LinkedIn em seu nome. Isso requer um aplicativo LinkedIn com os seguintes escopos OAuth: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.",
+    "connectButton": "Conectar ao LinkedIn",
+    "reconnectButton": "Reconectar ao LinkedIn",
+    "usefulLinks": "Links úteis",
+    "developerApps": "Aplicativos de desenvolvedor do LinkedIn",
+    "oauthTools": "Ferramentas OAuth 2.0 do LinkedIn",
+    "postsApi": "API de postagens do LinkedIn",
+    "successMessage": "Conectado com sucesso ao LinkedIn. Seu token de acesso foi salvo.",
+    "errorCredentialsNotConfigured": "Credenciais OAuth do LinkedIn não configuradas. Defina LINKEDIN_CLIENT_ID e LINKEDIN_CLIENT_SECRET.",
+    "errorStateMismatch": "Autorização falhou: incompatibilidade de estado. Por favor, tente novamente.",
+    "errorAuthorizationFailed": "Autorização do LinkedIn falhou",
+    "errorTokenFailed": "Não foi possível obter o token de acesso"
+  }
+}

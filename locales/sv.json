@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "Status",
+    "connected": "Ansluten",
+    "notConnected": "Inte ansluten",
+    "tokenLastUpdated": "Token senast uppdaterad",
+    "tokenExpires": "Token löper ut",
+    "reconnectAnytime": "Du kan återansluta när som helst för att uppdatera din åtkomsttoken.",
+    "authorizePrompt": "Auktorisera Indiekit att posta på LinkedIn å dina vägnar. Detta kräver en LinkedIn-app med följande OAuth-omfattningar: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.",
+    "connectButton": "Anslut till LinkedIn",
+    "reconnectButton": "Återanslut till LinkedIn",
+    "usefulLinks": "Användbara länkar",
+    "developerApps": "LinkedIn-utvecklarappar",
+    "oauthTools": "LinkedIn OAuth 2.0-verktyg",
+    "postsApi": "LinkedIn Posts API",
+    "successMessage": "Ansluten till LinkedIn. Din åtkomsttoken har sparats.",
+    "errorCredentialsNotConfigured": "LinkedIn OAuth-inloggningsuppgifter är inte konfigurerade. Ange LINKEDIN_CLIENT_ID och LINKEDIN_CLIENT_SECRET.",
+    "errorStateMismatch": "Auktorisering misslyckades: tillståndsfel. Försök igen.",
+    "errorAuthorizationFailed": "LinkedIn-auktorisering misslyckades",
+    "errorTokenFailed": "Kunde inte erhålla åtkomsttoken"
+  }
+}

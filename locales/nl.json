@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "Status",
+    "connected": "Verbonden",
+    "notConnected": "Niet verbonden",
+    "tokenLastUpdated": "Token laatst bijgewerkt",
+    "tokenExpires": "Token verloopt",
+    "reconnectAnytime": "U kunt op elk moment opnieuw verbinding maken om uw toegangstoken te vernieuwen.",
+    "authorizePrompt": "Autoriseer Indiekit om namens u op LinkedIn te posten. Dit vereist een LinkedIn-app met de volgende OAuth-bereiken: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.",
+    "connectButton": "Verbinden met LinkedIn",
+    "reconnectButton": "Opnieuw verbinden met LinkedIn",
+    "usefulLinks": "Nuttige links",
+    "developerApps": "LinkedIn Developer Apps",
+    "oauthTools": "LinkedIn OAuth 2.0 Tools",
+    "postsApi": "LinkedIn Posts API",
+    "successMessage": "Succesvol verbonden met LinkedIn. Uw toegangstoken is opgeslagen.",
+    "errorCredentialsNotConfigured": "LinkedIn OAuth-referenties niet geconfigureerd. Stel LINKEDIN_CLIENT_ID en LINKEDIN_CLIENT_SECRET in.",
+    "errorStateMismatch": "Autorisatie mislukt: status komt niet overeen. Probeer het opnieuw.",
+    "errorAuthorizationFailed": "LinkedIn-autorisatie mislukt",
+    "errorTokenFailed": "Kon toegangstoken niet verkrijgen"
+  }
+}

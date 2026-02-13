@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "Status",
+    "connected": "Terhubung",
+    "notConnected": "Tidak terhubung",
+    "tokenLastUpdated": "Token terakhir diperbarui",
+    "tokenExpires": "Token kedaluwarsa",
+    "reconnectAnytime": "Anda dapat menyambung kembali kapan saja untuk menyegarkan token akses Anda.",
+    "authorizePrompt": "Izinkan Indiekit untuk memposting di LinkedIn atas nama Anda. Ini memerlukan aplikasi LinkedIn dengan cakupan OAuth berikut: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.",
+    "connectButton": "Hubungkan ke LinkedIn",
+    "reconnectButton": "Hubungkan kembali ke LinkedIn",
+    "usefulLinks": "Tautan berguna",
+    "developerApps": "Aplikasi Pengembang LinkedIn",
+    "oauthTools": "Alat OAuth 2.0 LinkedIn",
+    "postsApi": "API Posting LinkedIn",
+    "successMessage": "Berhasil terhubung ke LinkedIn. Token akses Anda telah disimpan.",
+    "errorCredentialsNotConfigured": "Kredensial OAuth LinkedIn tidak dikonfigurasi. Setel LINKEDIN_CLIENT_ID dan LINKEDIN_CLIENT_SECRET.",
+    "errorStateMismatch": "Otorisasi gagal: ketidakcocokan status. Silakan coba lagi.",
+    "errorAuthorizationFailed": "Otorisasi LinkedIn gagal",
+    "errorTokenFailed": "Tidak dapat memperoleh token akses"
+  }
+}

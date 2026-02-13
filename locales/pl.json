@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "Status",
+    "connected": "Połączony",
+    "notConnected": "Niepołączony",
+    "tokenLastUpdated": "Token ostatnio zaktualizowany",
+    "tokenExpires": "Token wygasa",
+    "reconnectAnytime": "Możesz ponownie połączyć się w dowolnym momencie, aby odświeżyć swój token dostępu.",
+    "authorizePrompt": "Autoryzuj Indiekit do publikowania na LinkedIn w Twoim imieniu. Wymaga to aplikacji LinkedIn z następującymi zakresami OAuth: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.",
+    "connectButton": "Połącz z LinkedIn",
+    "reconnectButton": "Połącz ponownie z LinkedIn",
+    "usefulLinks": "Przydatne linki",
+    "developerApps": "Aplikacje deweloperskie LinkedIn",
+    "oauthTools": "Narzędzia OAuth 2.0 LinkedIn",
+    "postsApi": "API postów LinkedIn",
+    "successMessage": "Pomyślnie połączono z LinkedIn. Twój token dostępu został zapisany.",
+    "errorCredentialsNotConfigured": "Dane uwierzytelniające OAuth LinkedIn nie są skonfigurowane. Ustaw LINKEDIN_CLIENT_ID i LINKEDIN_CLIENT_SECRET.",
+    "errorStateMismatch": "Autoryzacja nie powiodła się: niezgodność stanu. Spróbuj ponownie.",
+    "errorAuthorizationFailed": "Autoryzacja LinkedIn nie powiodła się",
+    "errorTokenFailed": "Nie można uzyskać tokena dostępu"
+  }
+}

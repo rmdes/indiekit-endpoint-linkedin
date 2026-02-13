@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "स्थिति",
+    "connected": "कनेक्टेड",
+    "notConnected": "कनेक्ट नहीं है",
+    "tokenLastUpdated": "टोकन अंतिम बार अपडेट किया गया",
+    "tokenExpires": "टोकन समाप्त होता है",
+    "reconnectAnytime": "आप अपने एक्सेस टोकन को रिफ्रेश करने के लिए किसी भी समय पुनः कनेक्ट कर सकते हैं।",
+    "authorizePrompt": "Indiekit को अपनी ओर से LinkedIn पर पोस्ट करने के लिए अधिकृत करें। इसके लिए निम्नलिखित OAuth स्कोप के साथ एक LinkedIn ऐप की आवश्यकता है: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>।",
+    "connectButton": "LinkedIn से कनेक्ट करें",
+    "reconnectButton": "LinkedIn से पुनः कनेक्ट करें",
+    "usefulLinks": "उपयोगी लिंक",
+    "developerApps": "LinkedIn डेवलपर ऐप्स",
+    "oauthTools": "LinkedIn OAuth 2.0 टूल्स",
+    "postsApi": "LinkedIn पोस्ट API",
+    "successMessage": "LinkedIn से सफलतापूर्वक कनेक्ट हो गया। आपका एक्सेस टोकन सहेज लिया गया है।",
+    "errorCredentialsNotConfigured": "LinkedIn OAuth क्रेडेंशियल्स कॉन्फ़िगर नहीं हैं। LINKEDIN_CLIENT_ID और LINKEDIN_CLIENT_SECRET सेट करें।",
+    "errorStateMismatch": "प्राधिकरण विफल: स्थिति बेमेल। कृपया पुनः प्रयास करें।",
+    "errorAuthorizationFailed": "LinkedIn प्राधिकरण विफल",
+    "errorTokenFailed": "एक्सेस टोकन प्राप्त नहीं किया जा सका"
+  }
+}

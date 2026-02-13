@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "Status",
+    "connected": "Connected",
+    "notConnected": "Not connected",
+    "tokenLastUpdated": "Token last updated",
+    "tokenExpires": "Token expires",
+    "reconnectAnytime": "You can reconnect at any time to refresh your access token.",
+    "authorizePrompt": "Authorize Indiekit to post on LinkedIn on your behalf. This requires a LinkedIn app with the following OAuth scopes: <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.",
+    "connectButton": "Connect to LinkedIn",
+    "reconnectButton": "Reconnect to LinkedIn",
+    "usefulLinks": "Useful links",
+    "developerApps": "LinkedIn Developer Apps",
+    "oauthTools": "LinkedIn OAuth 2.0 Tools",
+    "postsApi": "LinkedIn Posts API",
+    "successMessage": "Successfully connected to LinkedIn. Your access token has been saved.",
+    "errorCredentialsNotConfigured": "LinkedIn OAuth credentials not configured. Set LINKEDIN_CLIENT_ID and LINKEDIN_CLIENT_SECRET.",
+    "errorStateMismatch": "Authorization failed: state mismatch. Please try again.",
+    "errorAuthorizationFailed": "LinkedIn authorization failed",
+    "errorTokenFailed": "Could not obtain access token"
+  }
+}

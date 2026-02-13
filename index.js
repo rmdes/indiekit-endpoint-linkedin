@@ -1,4 +1,6 @@
 import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
 import process from "node:process";
 import express from "express";
 import { AuthorizationCode } from "simple-oauth2";
@@ -36,6 +38,10 @@ export default class LinkedInEndpoint {
 
   get environment() {
     return ["LINKEDIN_CLIENT_ID", "LINKEDIN_CLIENT_SECRET"];
+  }
+
+  get localesDirectory() {
+    return path.join(path.dirname(fileURLToPath(import.meta.url)), "locales");
   }
 
   get navigationItems() {

@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "title": "LinkedIn",
+    "status": "Statut",
+    "connected": "Connecté",
+    "notConnected": "Non connecté",
+    "tokenLastUpdated": "Jeton mis à jour pour la dernière fois",
+    "tokenExpires": "Le jeton expire",
+    "reconnectAnytime": "Vous pouvez vous reconnecter à tout moment pour actualiser votre jeton d'accès.",
+    "authorizePrompt": "Autorisez Indiekit à publier sur LinkedIn en votre nom. Cela nécessite une application LinkedIn avec les portées OAuth suivantes : <code>openid</code>, <code>profile</code>, <code>w_member_social</code>.",
+    "connectButton": "Se connecter à LinkedIn",
+    "reconnectButton": "Se reconnecter à LinkedIn",
+    "usefulLinks": "Liens utiles",
+    "developerApps": "Applications développeur LinkedIn",
+    "oauthTools": "Outils OAuth 2.0 LinkedIn",
+    "postsApi": "API de publications LinkedIn",
+    "successMessage": "Connecté avec succès à LinkedIn. Votre jeton d'accès a été enregistré.",
+    "errorCredentialsNotConfigured": "Les identifiants OAuth LinkedIn ne sont pas configurés. Définissez LINKEDIN_CLIENT_ID et LINKEDIN_CLIENT_SECRET.",
+    "errorStateMismatch": "Autorisation échouée : incompatibilité d'état. Veuillez réessayer.",
+    "errorAuthorizationFailed": "Autorisation LinkedIn échouée",
+    "errorTokenFailed": "Impossible d'obtenir le jeton d'accès"
+  }
+}
