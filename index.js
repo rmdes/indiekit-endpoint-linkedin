@@ -38,6 +38,13 @@ export default class LinkedInEndpoint {
     return ["LINKEDIN_CLIENT_ID", "LINKEDIN_CLIENT_SECRET"];
   }
 
+  get navigationItems() {
+    return {
+      href: this.options.mountPath,
+      text: "LinkedIn",
+    };
+  }
+
   get routes() {
     const router = express.Router({ caseSensitive: true, mergeParams: true });
     const endpoint = this;
