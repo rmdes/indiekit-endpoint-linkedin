@@ -1,6 +1,6 @@
 {
   "name": "@rmdes/indiekit-endpoint-linkedin",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "LinkedIn OAuth 2.0 endpoint for Indiekit — handles token acquisition through the UI",
   "type": "module",
   "main": "index.js",
@@ -43,5 +43,8 @@
   },
   "devDependencies": {
     "@indiekit/error": "^1.0.0-beta.25"
+  },
+  "peerDependencies": {
+    "@indiekit/indiekit": ">=1.0.0-beta.25"
   }
 }
